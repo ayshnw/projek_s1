@@ -18,6 +18,14 @@ Route::get('/login', function () {
 Route::get('/home_produk', function () {
     return view('home_produk');
 });
+Route::get('/profile', function () {
+    return view('profile');
+});
+Route::get('/ubah_password', function () {
+    return view('ubah_password');
+});
+
+
 
 Route::get('/keranjang', function () {
     return view('keranjang');
