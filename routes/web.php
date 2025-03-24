@@ -24,8 +24,12 @@ Route::get('/profile', function () {
 Route::get('/ubah_password', function () {
     return view('ubah_password');
 });
-
-
+Route::get('/lupa_sandi', function () {
+    return view('lupa_sandi');
+});
+Route::get('/resi', function () {
+    return view('resi');
+});
 
 Route::get('/keranjang', function () {
     return view('keranjang');
