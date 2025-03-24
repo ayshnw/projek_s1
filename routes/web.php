@@ -19,5 +19,10 @@ Route::get('/home_produk', function () {
     return view('home_produk');
 });
 
-
+Route::get('/keranjang', function () {
+    return view('keranjang');
+});
+Route::get('/tentang_kami', function () {
+    return view('tentang_kami');
+});
 
